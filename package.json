@@ -1,0 +1,24 @@
+{
+  "name": "tamagotchi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/watchify app.module.js -o bundle.js & node_modules/.bin/serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adlondon/tamagotchi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adlondon/tamagotchi/issues"
+  },
+  "homepage": "https://github.com/adlondon/tamagotchi#readme",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "serve": "^1.4.0",
+    "watchify": "^3.7.0"
+  }
+}
